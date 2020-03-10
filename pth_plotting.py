@@ -95,4 +95,6 @@ def PlotPTHData(data):
     plt.setp(axs[2].get_xticklabels(), rotation=30)
 
     #plt.figlegend((l1,l2,l3), ('Temperature','Pressure','Humidity'), loc=(0.28,0.9),ncol=3, fancybox=True)
-    plt.show()
+    #plt.show()
+
+    return fig,axs
